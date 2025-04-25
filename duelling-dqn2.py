@@ -72,7 +72,7 @@ class DuelingDQN(nn.Module):
     def forward(self, x):
         x = x / 255.0  
         features = self.conv(x)
-        features = features.view(features.size(0), -1)
+        features = features.reshape(features.size(0), -1)
 
         value = self.fc_value(features)
         advantage = self.fc_advantage(features)
