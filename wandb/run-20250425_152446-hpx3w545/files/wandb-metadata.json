@@ -1,0 +1,44 @@
+{
+  "os": "macOS-14.0-arm64-arm-64bit",
+  "python": "CPython 3.10.2",
+  "startedAt": "2025-04-25T14:24:46.859408Z",
+  "program": "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/main.py",
+  "codePath": "Documents/Reinforcement/DQN_breakout/duelling-dqn/main.py",
+  "git": {
+    "remote": "https://github.com/mrgw21/smart-meter-ui.git",
+    "commit": "b9a12eb43b048adb3119d1a1b5a2b04ac33cb172"
+  },
+  "email": "sp2689@bath.ac.uk",
+  "root": "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn",
+  "host": "Jints-MacBook-Air.local",
+  "executable": "/Library/Frameworks/Python.framework/Versions/3.10/bin/python3",
+  "codePathLocal": "main.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "245107195904",
+      "used": "185351069696"
+    },
+    "/System/Volumes/Data": {
+      "total": "245107195904",
+      "used": "185351069696"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "apple": {
+    "name": "Apple M1",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 7,
+    "memoryGb": 8,
+    "swapTotalBytes": "8589934592",
+    "ramTotalBytes": "8589934592"
+  }
+}

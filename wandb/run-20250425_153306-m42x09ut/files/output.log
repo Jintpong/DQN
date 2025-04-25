@@ -1,0 +1,31 @@
+Failed to load model.
+/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/agent.py:78: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  state = torch.tensor(state, dtype=torch.float32).unsqueeze(0).to(self.device)
+/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/agent.py:89: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  next_state_tensor = torch.tensor(next_state, dtype=torch.float32).unsqueeze(0)
+Episode 1, Return: 1.00, Epsilon: 1.000
+[34m[1mwandb[0m: [33mWARNING[0m Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.
+Traceback (most recent call last):
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/main.py", line 29, in <module>
+    agent.train(env, epochs=10)
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/agent.py", line 104, in train
+    loss.backward()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/autograd/graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/main.py", line 29, in <module>
+    agent.train(env, epochs=10)
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/agent.py", line 104, in train
+    loss.backward()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/autograd/graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

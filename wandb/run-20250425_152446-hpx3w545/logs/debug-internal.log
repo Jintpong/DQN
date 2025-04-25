@@ -1,0 +1,15 @@
+{"time":"2025-04-25T15:24:46.860492+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/wandb/run-20250425_152446-hpx3w545/logs/debug-core.log"}
+{"time":"2025-04-25T15:24:47.26289+01:00","level":"INFO","msg":"created new stream","id":"hpx3w545"}
+{"time":"2025-04-25T15:24:47.26294+01:00","level":"INFO","msg":"stream: started","id":"hpx3w545"}
+{"time":"2025-04-25T15:24:47.26298+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"hpx3w545"}
+{"time":"2025-04-25T15:24:47.263013+01:00","level":"INFO","msg":"handler: started","stream_id":"hpx3w545"}
+{"time":"2025-04-25T15:24:47.262991+01:00","level":"INFO","msg":"sender: started","stream_id":"hpx3w545"}
+{"time":"2025-04-25T15:24:47.492818+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-25T15:24:50.016656+01:00","level":"INFO","msg":"stream: closing","id":"hpx3w545"}
+{"time":"2025-04-25T15:24:50.016755+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-25T15:24:50.017121+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-25T15:24:50.71727+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-25T15:24:50.950178+01:00","level":"INFO","msg":"handler: closed","stream_id":"hpx3w545"}
+{"time":"2025-04-25T15:24:50.950207+01:00","level":"INFO","msg":"sender: closed","stream_id":"hpx3w545"}
+{"time":"2025-04-25T15:24:50.95023+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hpx3w545"}
+{"time":"2025-04-25T15:24:50.951705+01:00","level":"INFO","msg":"stream: closed","id":"hpx3w545"}

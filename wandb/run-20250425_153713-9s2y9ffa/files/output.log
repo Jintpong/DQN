@@ -1,0 +1,47 @@
+ No saved model found, starting fresh.
+/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/agent.py:78: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  state = torch.tensor(state, dtype=torch.float32).unsqueeze(0).to(self.device)
+/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/agent.py:89: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  next_state_tensor = torch.tensor(next_state, dtype=torch.float32).unsqueeze(0)
+Episode 1, Return: 1.00, Epsilon: 1.000
+Episode 2, Return: 2.00, Epsilon: 1.000
+Traceback (most recent call last):
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/main.py", line 29, in <module>
+    agent.train(env, epochs=10)
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/agent.py", line 96, in train
+    states, actions, rewards, next_states, dones = self.memory.sample(self.batch_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/model.py", line 37, in forward
+    x = self.relu(self.conv2(x))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/main.py", line 29, in <module>
+    agent.train(env, epochs=10)
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/agent.py", line 96, in train
+    states, actions, rewards, next_states, dones = self.memory.sample(self.batch_size)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/model.py", line 37, in forward
+    x = self.relu(self.conv2(x))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+KeyboardInterrupt

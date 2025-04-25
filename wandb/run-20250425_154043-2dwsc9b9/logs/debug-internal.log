@@ -1,0 +1,15 @@
+{"time":"2025-04-25T15:40:43.68094+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/wandb/run-20250425_154043-2dwsc9b9/logs/debug-core.log"}
+{"time":"2025-04-25T15:40:43.946462+01:00","level":"INFO","msg":"created new stream","id":"2dwsc9b9"}
+{"time":"2025-04-25T15:40:43.946496+01:00","level":"INFO","msg":"stream: started","id":"2dwsc9b9"}
+{"time":"2025-04-25T15:40:43.946502+01:00","level":"INFO","msg":"handler: started","stream_id":"2dwsc9b9"}
+{"time":"2025-04-25T15:40:43.946524+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"2dwsc9b9"}
+{"time":"2025-04-25T15:40:43.946521+01:00","level":"INFO","msg":"sender: started","stream_id":"2dwsc9b9"}
+{"time":"2025-04-25T15:40:44.217134+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-25T15:43:49.676929+01:00","level":"INFO","msg":"stream: closing","id":"2dwsc9b9"}
+{"time":"2025-04-25T15:43:49.677493+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-25T15:43:49.678052+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-25T15:43:50.453556+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-25T15:43:50.659003+01:00","level":"INFO","msg":"handler: closed","stream_id":"2dwsc9b9"}
+{"time":"2025-04-25T15:43:50.659022+01:00","level":"INFO","msg":"sender: closed","stream_id":"2dwsc9b9"}
+{"time":"2025-04-25T15:43:50.659391+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"2dwsc9b9"}
+{"time":"2025-04-25T15:43:50.660001+01:00","level":"INFO","msg":"stream: closed","id":"2dwsc9b9"}

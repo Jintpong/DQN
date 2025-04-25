@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/main.py", line 16, in <module>
+    model.load_model()
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/model.py", line 59, in load_model
+    if not os.path.exists(filename):
+NameError: name 'os' is not defined
+Traceback (most recent call last):
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/main.py", line 16, in <module>
+    model.load_model()
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/model.py", line 59, in load_model
+    if not os.path.exists(filename):
+NameError: name 'os' is not defined

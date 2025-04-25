@@ -1,0 +1,27 @@
+ No saved model found, starting fresh.
+Episode 1, Return: 1.00, Epsilon: 1.000
+Episode 2, Return: 2.00, Epsilon: 1.000
+Traceback (most recent call last):
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/main.py", line 29, in <module>
+    agent.train(env, epochs=10)
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/agent.py", line 103, in train
+    loss.backward()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/autograd/graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/main.py", line 29, in <module>
+    agent.train(env, epochs=10)
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/agent.py", line 103, in train
+    loss.backward()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/autograd/graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

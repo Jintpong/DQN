@@ -1,0 +1,41 @@
+Fail to loaded
+/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/agent.py:78: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  state = torch.tensor(state, dtype=torch.float32).unsqueeze(0).to(self.device)
+/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/agent.py:89: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  next_state_tensor = torch.tensor(next_state, dtype=torch.float32).unsqueeze(0)
+Traceback (most recent call last):
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/main.py", line 29, in <module>
+    agent.train(env, epochs=10)
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/agent.py", line 96, in train
+    qsa = self.model(states).gather(1, actions)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/model.py", line 30, in forward
+    state_value = self.relu(self.state_value1(x))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (64x4096 and 3136x1024)
+Traceback (most recent call last):
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/main.py", line 29, in <module>
+    agent.train(env, epochs=10)
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/agent.py", line 96, in train
+    qsa = self.model(states).gather(1, actions)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/jintpongchababnapa/Documents/Reinforcement/DQN_breakout/duelling-dqn/model.py", line 30, in forward
+    state_value = self.relu(self.state_value1(x))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (64x4096 and 3136x1024)
